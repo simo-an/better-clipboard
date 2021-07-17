@@ -1,0 +1,19 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "target": "es5",
+    "module": "commonjs",
+    "strict": false,
+    "declaration": true,
+    "moduleResolution": "node",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": ["es2020", "es2019", "es2018", "dom"],
+  },
+  "include": ["./lib/index.ts"],
+  "exclude": [ "node_modules" ]
+}

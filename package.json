@@ -1,0 +1,31 @@
+{
+	"name": "better-clipboard",
+	"version": "1.0.0",
+	"description": "A better clipboard for Electron.",
+	"main": "./dist/index.js",
+	"directories": {
+		"lib": "lib",
+		"test": "test"
+	},
+	"keywords": [
+		"better-clipboard",
+		"clipboard",
+		"electron"
+	],
+	"scripts": {
+		"test": "node ./test",
+		"install": "node-gyp rebuild --release"
+	},
+	"author": "simu",
+	"license": "MIT",
+	"gypfile": true,
+	"dependencies": {
+		"bindings": "^1.5.0",
+		"nan": "^2.13.2",
+		"prebuild-install": "^6.1.3"
+	},
+	"devDependencies": {
+		"@types/node": "^16.0.2",
+		"typescript": "^4.3.5"
+	}
+}
