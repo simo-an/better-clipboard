@@ -3,9 +3,10 @@
 	"version": "1.0.0",
 	"description": "A better clipboard for Electron.",
 	"main": "./dist/index.js",
-	"directories": {
-		"lib": "lib",
-		"test": "test"
+	"homepage": "https://github.com/simo-an/better-clipboard",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/simo-an/better-clipboard.git"
 	},
 	"keywords": [
 		"better-clipboard",
