@@ -8,7 +8,7 @@ npm i better-clipboard
 electron-rebuild -f -w better-clipboard
 ```
 
-More info in installation: https://github.com/JoshuaWise/better-sqlite3/blob/master/docs/troubleshooting.md
+More info of installation: https://github.com/JoshuaWise/better-sqlite3/blob/master/docs/troubleshooting.md
 
 #### Usage
 
