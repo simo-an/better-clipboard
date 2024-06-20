@@ -24,7 +24,7 @@
                     'GCC_ENABLE_CPP_EXCEPTIONS': 'YES',
                     'OTHER_CFLAGS': [
                         '-ObjC++',
-                        '-std=c++14'
+                        '-std=c++17'
                     ]
                 }
 			}
